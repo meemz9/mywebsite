@@ -1,0 +1,74 @@
+[
+  {
+    "company": "Kenna",
+    "role": "Full Stack Developer",
+    "start_date": "2025-09-01",
+    "end_date": "2025-12-31",
+    "description": "Worked on full-stack applications for over 200+ clients in the agriculture sector.",
+    "tech_used": ["Node.js", "React", "HTML", "CSS", "SQL", "Git"],
+    "type": "Co-op"
+  },
+  {
+    "company": "Peekapak",
+    "role": "QA Engineer",
+    "start_date": "2025-01-01",
+    "end_date": "2025-04-30",
+    "description": "Created new web features, solved high priority bugs, and developed end-to-end automated tests.",
+    "tech_used": ["TypeScript", "JavaScript", "Cypress", "React", "Git"],
+    "type": "Co-op"
+  },
+  {
+    "company": "Infrastructures for Information (i4i)",
+    "role": "Software Developer & QA Analyst",
+    "start_date": "2025-09-01",
+    "end_date": "2025-09-30",
+    "description": "Created an internal tool for 100+ employees to streamline and organize training.",
+    "tech_used": ["JavaScript", "MySQL", "Node.js", "Express.js", "Postman"],
+    "type": "Co-op"
+  },
+  {
+    "company": "Queen's University School of Computing",
+    "role": "Full Stack Developer",
+    "start_date": "2025-09-01",
+    "end_date": "2025-09-30",
+    "description": "Developed a web repository for professors across Canada to share and access quizzes.",
+    "tech_used": ["JavaScript","Node.js", "React", "Git", "MySQL"],
+    "type": "Co-op"
+  },
+  {
+    "company": "",
+    "role": "Personal Website",
+    "start_date": "2025-09-01",
+    "end_date": "",
+    "description": "Built my personal website with Next.js and Tailwind.",
+    "tech_used": ["Next.js", "Tailwind CSS", "TypeScript"],
+    "type": "Project"
+  },
+  {
+    "company": "",
+    "role": "OCR",
+    "start_date": "2025-09-01",
+    "end_date": "",
+    "description": "Built an OCR using PyTorch that can classify digits from the MNIST dataset.",
+    "tech_used": ["Python"],
+    "type": "Project"
+  },
+  {
+    "company": "",
+    "role": "Interactive 3D Maze Game",
+    "start_date": "2021-09-01",
+    "end_date": "",
+    "description": "Built an interactive, multi-level maze game with powerups, time constraints and player customizations.",
+    "tech_used": ["Unity3D", "C#"],
+    "type": "Project"
+  },
+  {
+    "company": "",
+    "role": "Leadership Conference Director",
+    "start_date": "2022-10-01",
+    "end_date": "",
+    "description": "Led a team of 18 senior students to organize a 3-day conference for 150+ highschool students.",
+    "tech_used": ["Leadership", "Organization", "Communication"],
+    "type": "Volunteer"
+  }
+]
