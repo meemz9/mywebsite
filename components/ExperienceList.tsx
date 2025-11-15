@@ -47,18 +47,32 @@ export default function ExperienceList({
   return (
     <section id="experiences" className="max-w-5xl mx-auto py-12 px-6">
       {/* Header + Dropdown */}
-      <div className="flex flex-wrap justify-between items-center mb-10 gap-4">
-        <h2 className="text-5xl custom-font font-semibold text-light text-left">
-          {selectedSkill.length > 0
-            ? `Experiences using ${selectedSkill.join(", ")}`
-            : "Experiences"}
-        </h2>
+      <div className="mb-10">
+        <div className="flex justify-between items-center mb-4 gap-4">
+          <h2 className="text-5xl custom-font font-semibold text-light text-left">
+            Experiences
+          </h2>
 
-        <TypeDropdown
-          allTypes={allTypes}
-          selectedType={selectedType}
-          setSelectedType={setSelectedType}
-        />
+          <TypeDropdown
+            allTypes={allTypes}
+            selectedType={selectedType}
+            setSelectedType={setSelectedType}
+          />
+        </div>
+
+        {selectedSkill.length > 0 && (
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="text-sm text-secondary">Filtered by:</span>
+            {selectedSkill.map((skill, i) => (
+              <span
+                key={i}
+                className="text-sm px-3 py-1 rounded-full bg-accent/10 border border-accent/30 text-accent"
+              >
+                {skill}
+              </span>
+            ))}
+          </div>
+        )}
       </div>
 
 

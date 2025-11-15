@@ -44,7 +44,7 @@ export default function SkillsSection({
         <div className="flex justify-center mb-6">
           <button
             onClick={clearSkills}
-            className="flex items-center gap-2 border hover:cursor-pointer border-accent text-accent px-4 py-2 rounded-full hover:bg-accent hover:text-white transition-colors"
+            className="flex items-center gap-2 border cursor-pointer border-accent text-accent px-4 py-2 rounded-full hover:bg-accent hover:text-white transition-colors"
           >
             <X className="h-4 w-4" /> Clear Filters
           </button>
@@ -85,7 +85,7 @@ export default function SkillsSection({
           <div className="flex justify-center mt-8">
             <button
               onClick={() => setShowAll(!showAll)}
-              className="flex items-center hover:cursor-pointer gap-2 text-secondary transition-colors"
+              className="flex items-center cursor-pointer gap-2 text-secondary transition-colors"
             >
               <motion.div
                 animate={{ rotate: showAll ? 180 : 0 }}

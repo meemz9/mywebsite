@@ -50,7 +50,7 @@
     "start_date": "2025-09-01",
     "end_date": "",
     "description": "Built an OCR using PyTorch that can classify digits from the MNIST dataset.",
-    "tech_used": ["Python"],
+    "tech_used": ["Python", "PyTorch"],
     "type": "Project"
   },
   {
