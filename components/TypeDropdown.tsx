@@ -33,7 +33,7 @@ export default function TypeDropdown({
       {/* Dropdown button */}
       <button
         onClick={() => setOpen(prev => !prev)}
-        className="flex items-center gap-2 bg-[#111] cursor-pointer border border-secondary text-light text-sm px-4 py-2 rounded-lg hover:border-accent transition-colors duration-200"
+        className="flex items-center gap-2 bg-card cursor-pointer border border-secondary text-light text-sm px-4 py-2 rounded-lg hover:border-accent transition-colors duration-200"
       >
         <span>{selectedType === "All" ? "All Types" : selectedType}</span>
         <ChevronDown
@@ -43,7 +43,7 @@ export default function TypeDropdown({
 
       {/* Dropdown menu */}
       {open && (
-        <div className="absolute right-0 mt-2 w-40 bg-[#111] border border-secondary rounded-lg shadow-lg z-20 animate-fadeIn">
+        <div className="absolute right-0 mt-2 w-40 bg-card border border-secondary rounded-lg shadow-lg z-20 animate-fadeIn">
           {["All", ...allTypes].map(type => (
             <button
               key={type}

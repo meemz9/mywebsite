@@ -73,7 +73,7 @@ export default function SkillsSection({
                 transition={{ duration: 0.2 }}
                 onClick={() => toggleSkill(skill)}
                 whileHover={{borderColor: "var(--border-accent)"}}
-                className="border rounded-xl py-3 text-sm cursor-pointer"
+                className="border rounded-xl py-3 text-sm cursor-pointer bg-card"
               >
                 {skill}
               </motion.button>

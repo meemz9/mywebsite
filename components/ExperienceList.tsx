@@ -89,7 +89,7 @@ export default function ExperienceList({
           {displayedExperiences.map((proj, index) => (
             <div
               key={index}
-              className="bg-[#111] rounded-2xl p-6 border border-secondary hover:border-accent transition-colors duration-200"
+              className="bg-card rounded-2xl p-6 border border-secondary hover:border-accent transition-colors duration-200"
             >
               <div className="flex items-center justify-between mb-2">
                 <h3 className="text-xl font-semibold text-white">{proj.role}</h3>
