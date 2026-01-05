@@ -1,12 +1,21 @@
 [
   {
+    "company": "Social and Intelligent Robotics Research Lab",
+    "role": "Machine Learning Research Assistant",
+    "start_date": "2026-01-02",
+    "end_date": "2026-04-31",
+    "description": "Using the Pepper robot to create an AI public speaking coach that can analyze and give feedback on speeches.",
+    "tech_used": [],
+    "type": "Work Experience"
+  },
+  {
     "company": "Kenna",
     "role": "Full Stack Developer",
     "start_date": "2025-09-01",
     "end_date": "2025-12-31",
     "description": "Worked on full-stack applications for over 200+ clients in the agriculture sector.",
     "tech_used": ["Node.js", "React", "HTML", "CSS", "SQL", "Git"],
-    "type": "Co-op"
+    "type": "Work Experience"
   },
   {
     "company": "Peekapak",
@@ -15,7 +24,7 @@
     "end_date": "2025-04-30",
     "description": "Created new web features, solved high priority bugs, and developed end-to-end automated tests.",
     "tech_used": ["TypeScript", "JavaScript", "Cypress", "React", "Git"],
-    "type": "Co-op"
+    "type": "Work Experience"
   },
   {
     "company": "Infrastructures for Information (i4i)",
@@ -24,7 +33,7 @@
     "end_date": "2025-09-30",
     "description": "Created an internal tool for 100+ employees to streamline and organize training.",
     "tech_used": ["JavaScript", "MySQL", "Node.js", "Express.js", "Postman"],
-    "type": "Co-op"
+    "type": "Work Experience"
   },
   {
     "company": "Queen's University School of Computing",
@@ -33,7 +42,7 @@
     "end_date": "2025-09-30",
     "description": "Developed a web repository for professors across Canada to share and access quizzes.",
     "tech_used": ["JavaScript","Node.js", "React", "Git", "MySQL"],
-    "type": "Co-op"
+    "type": "Work Experience"
   },
   {
     "company": "",
